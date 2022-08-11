@@ -3,6 +3,10 @@ import "../index.css";
 import { Footer } from "./Footer";
 import { Header } from "./Header";
 import { Main } from "./Main";
+import { Login } from "./Login";
+import { Register } from "./Register";
+import { InfoTooltip } from "./InfoTooltip";
+import { PopupWithForm } from "./PopupWithForm";
 import { EditProfilePopup } from "./EditProfilePopup";
 import { EditAvatarPopup } from "./EditAvatarPopup";
 import { AddPlacePopup } from "./AddPlacePopup";
@@ -124,7 +128,7 @@ function App() {
     <div className="page">
       <CurrentUserContext.Provider value={currentUser}>
         <Header />
-        <Main
+        {/* <Main
           cards={cards}
           onEditAvatarClick={handleEditAvatarClick}
           onEditProfileClick={handleEditProfileClick}
@@ -132,7 +136,11 @@ function App() {
           onCardClick={handleCardClick}
           onCardLike={handleCardLike}
           onCardDelete={handleCardDelete}
-        />
+        /> */}
+        
+        {/* <Login /> */}
+        {/* <Register /> */}
+        {/* <InfoTooltip />  */}
         <Footer />
         <EditProfilePopup
           isOpen={isEditProfilePopupOpen}
