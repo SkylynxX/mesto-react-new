@@ -19,3 +19,15 @@
 .sign-up__button:hover {
     opacity: 80%;
   }
+
+
+@media screen and (max-width: 400px) {
+  .sign-up__button {
+    width: 260px;
+    height: 46px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 16px;
+    line-height: 19px;
+  }
+}

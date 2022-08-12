@@ -10,3 +10,13 @@ max-width: 358px;
 min-height: 58px;
 margin: 0 auto 60px auto;
 }
+
+@media screen and (max-width: 400px) {
+    .popup-info__title {
+      font-size: 20px;
+      line-height: 24px;
+      max-width: 244px;
+      min-height: 48px;
+      margin-bottom: 50px;
+    }
+  }

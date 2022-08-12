@@ -140,7 +140,7 @@ function App() {
         
         {/* <Login /> */}
         {/* <Register /> */}
-        {/* <InfoTooltip />  */}
+        <InfoTooltip /> 
         <Footer />
         <EditProfilePopup
           isOpen={isEditProfilePopupOpen}
